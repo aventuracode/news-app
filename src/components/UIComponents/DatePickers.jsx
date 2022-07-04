@@ -18,7 +18,7 @@ const DatePickers = () => {
 			<Stack spacing={3}>
 				{isMobile() ? (
 					<MobileDatePicker
-						label='Seleccione Fecha'
+						label='Fecha'
 						inputFormat='MM/dd/yyyy'
 						value={value}
 						onChange={handleChange}
@@ -26,7 +26,7 @@ const DatePickers = () => {
 					/>
 				) : (
 					<DesktopDatePicker
-						label='Seleccione Fecha'
+						label='Fecha'
 						inputFormat='MM/dd/yyyy'
 						value={value}
 						onChange={handleChange}

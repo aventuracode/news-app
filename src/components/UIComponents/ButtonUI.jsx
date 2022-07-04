@@ -3,10 +3,14 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import SearchIcon from '@mui/icons-material/Search';
 
-const ButtonUI = () => {
+const ButtonUI = props => {
 	return (
 		<Stack direction='row' spacing={2}>
-			<Button variant='contained' endIcon={<SearchIcon />}>
+			<Button
+				variant='contained'
+				onClick={props.handleClick}
+				endIcon={<SearchIcon />}
+			>
 				Buscar
 			</Button>
 		</Stack>
