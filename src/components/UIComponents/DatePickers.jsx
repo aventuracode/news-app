@@ -5,7 +5,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
 import { MobileDatePicker } from '@mui/x-date-pickers/MobileDatePicker';
 import { AdapterMoment } from '@mui/x-date-pickers/AdapterMoment';
-import { isMobile } from '../../helpers/utils';
+import { isMobile } from '../helpers/utils';
 const DatePickers = () => {
 	const [value, setValue] = React.useState(new Date('2022-07-1T21:11:54'));
 
