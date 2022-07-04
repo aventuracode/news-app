@@ -8,6 +8,7 @@ import './Searcher.css';
 
 const Searcher = () => {
 	const { addToNews } = useContext(AppContext);
+	/*
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
@@ -17,17 +18,17 @@ const Searcher = () => {
 			} catch (error) {}
 		};
 		fetchData().catch(console.error);
-	}, []);
+	}, []);*/
 
 	const handleClick = () => {
-		const fetchData = async () => {
+		/*const fetchData = async () => {
 			try {
 				const data = await fetch(`${URL_SEARCH}q=economia&page=2`);
 				const result = await data.json();
 				addToNews(result.articles);
 			} catch (error) {}
 		};
-		fetchData().catch(console.error);
+		fetchData().catch(console.error);*/
 	};
 
 	return (

@@ -10,7 +10,7 @@ const Home = () => {
 	const { state, addToNews } = useContext(AppContext);
 	const { country, news } = state;
 	const datafake = JSON.parse(data);
-	useEffect(() => {
+	/*useEffect(() => {
 		const fetchData = async () => {
 			try {
 				const data = await fetch(
@@ -21,7 +21,7 @@ const Home = () => {
 			} catch (error) {}
 		};
 		fetchData().catch(console.error);
-	}, [country]);
+	}, [country]);*/
 
 	return (
 		<>
