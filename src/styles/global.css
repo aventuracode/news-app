@@ -1,0 +1,32 @@
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--dark: #232830;
+	--very-light-pink: #c7c7c7;
+	--text-input-field: #f7f7f7;
+	--hospital-green: #acd9b2;
+	--dark-light: #4b5563;
+	--primary: #97cf00;
+	--secondary: #2aa7df;
+	--interactive: #00a9e5;
+	--very-light-gray: #f2f5fa;
+	--decorative: #c5d5fb;
+	--default-content-width: 1024px;
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #000;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+h2,
+p {
+	margin: 0;
+	
+	color: var(--textColor) ;
+}

@@ -1,0 +1,53 @@
+{
+	"name": "trendingnews",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack serve",
+		"build": "webpack --mode production",
+		"format": "prettier --write .",
+		"lint": "eslint --fix . --ext .js,.jsx"
+	},
+	"keywords": [],
+	"author": "aventuracode",
+	"license": "MIT",
+	"dependencies": {
+		"@date-io/moment": "^2.14.0",
+		"@emotion/react": "^11.9.3",
+		"@emotion/styled": "^11.9.3",
+		"@mui/icons-material": "^5.8.4",
+		"@mui/material": "^5.8.6",
+		"@mui/styled-engine-sc": "^5.8.0",
+		"@mui/system": "^5.8.6",
+		"@mui/x-date-pickers": "^5.0.0-alpha.7",
+		"moment": "^2.29.3",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-icons": "^4.4.0",
+		"react-router-dom": "^6.3.0",
+		"styled-components": "^5.3.5"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.18.6",
+		"@babel/preset-env": "^7.18.6",
+		"@babel/preset-react": "^7.18.6",
+		"babel-loader": "^8.2.5",
+		"css-loader": "^6.7.1",
+		"eslint": "^8.18.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-n": "^15.2.3",
+		"eslint-plugin-promise": "^6.0.0",
+		"eslint-plugin-react": "^7.30.1",
+		"html-loader": "^3.1.2",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^2.6.1",
+		"prettier": "^2.7.1",
+		"webpack": "^5.73.0",
+		"webpack-cli": "^4.10.0",
+		"webpack-dev-server": "^4.9.2"
+	}
+}

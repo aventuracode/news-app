@@ -1,0 +1,13 @@
+.wrap-title {
+	height: 80px;
+	display: flex;
+	margin: 10px 10px 10px 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+.wrap-title.home-title{
+	margin: 100px 10px 10px 10px;
+}
+
+@media (max-width: 640px) {
+}

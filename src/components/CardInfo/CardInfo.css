@@ -1,0 +1,13 @@
+.card-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 10px;
+}
+.card-info a {
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--textColor) ;
+}
+@media (max-width: 640px) {
+}

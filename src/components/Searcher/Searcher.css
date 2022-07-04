@@ -1,0 +1,25 @@
+.searcher-container {
+	height: 160px;
+	display: flex;
+	margin: 100px 10px 0 10px;
+	justify-content: space-between;
+}
+.searcher-form {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
+@media (max-width: 640px) {
+	.searcher-container {
+		flex-direction: column;
+		height: 260px;
+		margin-bottom: 12px;
+	}
+	.searcher-form {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+}
