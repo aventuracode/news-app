@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react';
 import Article from '../Article/Article.jsx';
 import AppContext from '../../context/AppContext.js';
-import { URL_API, TOPHEADLINES, APIKEY } from '../../helpers/requester.js';
+import { URL_API, TOPHEADLINES, APIKEY } from '../../helpers/requester';
 import './ListOfArticles.css';
 
 const ListOfArticle = () => {
