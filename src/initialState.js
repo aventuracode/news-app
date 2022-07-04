@@ -5,8 +5,6 @@ export default {
 	dateFrom: '02-07-2022',
 	dateTo: '01:07-2022',
 	searchTerm: 'inflacion',
-	loading: true,
-	error: null,
 	codeCountries: [
 		'ae',
 		'ar',
