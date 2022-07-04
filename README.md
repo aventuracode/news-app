@@ -1,18 +1,28 @@
 #News app de noticias
 
-![Captura de WOLOX](.readme-static/captura.png)
+- News app utiliza NewsAPI para mostrar artículos y titulares de noticias de última hora de fuentes de noticias y blogs en toda la web
 
-![Captura de WOLOX](.readme-static/beneficios.png)
+![Captura NewsApi](.readme-static/lastnews.png)
 
-![Captura de WOLOX](.readme-static/pokeapi.png)
+![Captura NewsApi](.readme-static/resultSearch.png)
 
-News app utiliza la api de NewsAPI para listar cada Pokémon
+![Captura NewsApi](.readme-static/lastnewsweb.png)
+
+![Captura NewsApi](.readme-static/searweb.png)
+
 Algunas de las features que tiene son :
 
 - NewsAPI
-- Despliegue continuo con GitHub Actions and firebase Hosting
+- configuracion e instalacion de webpack, babel preset, plugins y StandardJS en el proyecto.
+- Maquetacion y aplicacion de estilos en las distintas secciones.
+- integracion de iconos
+- Implementacion de Hooks
+- Implementacion de useContext
+- integracion y despliegue continuo con GitHub Actions and firebase Hosting
+- Implementacion de MaterialUI para algunos componentes
 
 [Ver la app en producción](https://news-app-9232c.web.app/)
+- Nota: para poder ver news actualizadas debemos cambiar el key 
 
 ## Scripts
 
@@ -22,7 +32,14 @@ Algunas de las features que tiene son :
 
 ## `npm format` formatea todos los archivos
 
-## `npm lint` ejecuta el linter
+## `npm lint` ejecuta el linter que nos permite encontrar errores en nuestro codigo
+
+## Para Correr nuestro proyecto
+
+- primero debemos bar el proyecto:
+- git clone https://github.com/aventuracode/news-app.git
+- ejecutamos en consola el comando npm install para instalar las dependencias
+- ejecutamos en consola el comando npm run start para correr nuestro proyecto
 
 ## Licencia
 
