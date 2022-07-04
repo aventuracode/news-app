@@ -7,7 +7,7 @@
 .card-info a {
 	font-weight: bold;
 	text-decoration: none;
-	color: var(--textColor) ;
+	color: var(--textColor);
 }
 @media (max-width: 640px) {
 }
