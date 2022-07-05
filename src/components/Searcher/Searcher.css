@@ -10,6 +10,12 @@
 	width: 100%;
 	align-items: center;
 }
+form {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: end;
+}
 
 @media (max-width: 640px) {
 	.searcher-container {
@@ -20,6 +26,13 @@
 	.searcher-form {
 		display: flex;
 		flex-direction: column;
+		height: 100%;
+	}
+	.searcher-form form {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: stretch;
 		height: 100%;
 	}
 }

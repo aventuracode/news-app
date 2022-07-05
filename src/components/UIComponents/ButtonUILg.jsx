@@ -2,10 +2,10 @@ import React from 'react';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 
-const ButtonUILg = () => {
+const ButtonUILg = ({ handleClick }) => {
 	return (
 		<Stack spacing={2} direction='row'>
-			<Button variant='contained' sx={{ width: 300 }}>
+			<Button onClick={handleClick} variant='contained' sx={{ width: 300 }}>
 				Ver Más
 			</Button>
 		</Stack>

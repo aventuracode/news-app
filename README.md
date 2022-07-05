@@ -4,25 +4,26 @@
 
 ![Captura NewsApi](.readme-static/lastnews.PNG)
 
-![Captura NewsApi](.readme-static/resultSearch.png)
+![Captura NewsApi](.readme-static/resultSearch.PNG)
 
 ![Captura NewsApi](.readme-static/lastnewsweb.PNG)
 
-![Captura NewsApi](.readme-static/searweb.png)
+![Captura NewsApi](.readme-static/searweb.PNG)
 
 Algunas de las features que tiene son :
 
-- implementacion de News API artículos y titulares de noticias. 
+- implementacion de News API artículos y titulares de noticias.
 - configuracion e instalacion de webpack, babel preset, plugins y StandardJS en el proyecto.
 - Maquetacion y aplicacion de estilos en las distintas secciones.
 - integracion de iconos
 - Implementacion de Hooks
 - Implementacion de useContext
 - integracion y despliegue continuo con GitHub Actions and firebase Hosting
-- Implementacion de MaterialUI 
+- Implementacion de MaterialUI
 
 [Ver la app en producción](https://news-app-9232c.web.app/)
-- Nota: para poder ver news actualizadas debemos cambiar el key 
+
+- Nota: para poder ver news actualizadas debemos cambiar el key
 
 ## Scripts
 

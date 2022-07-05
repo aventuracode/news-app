@@ -9,5 +9,8 @@
 	text-decoration: none;
 	color: var(--textColor);
 }
+.card-info a:hover {
+	color: var(--primary);
+}
 @media (max-width: 640px) {
 }
