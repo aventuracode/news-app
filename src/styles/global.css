@@ -1,12 +1,13 @@
 :root {
 	--white: #ffffff;
 	--black: #000000;
+	--primary: #97cf00;
+
 	--dark: #232830;
 	--very-light-pink: #c7c7c7;
 	--text-input-field: #f7f7f7;
 	--hospital-green: #acd9b2;
 	--dark-light: #4b5563;
-	--primary: #97cf00;
 	--secondary: #2aa7df;
 	--interactive: #00a9e5;
 	--very-light-gray: #f2f5fa;
@@ -27,6 +28,6 @@ body {
 h2,
 p {
 	margin: 0;
-	
-	color: var(--textColor) ;
+
+	color: var(--textColor);
 }

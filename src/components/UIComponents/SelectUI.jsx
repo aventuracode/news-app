@@ -14,24 +14,22 @@ export default function SelectUI() {
 	};
 
 	return (
-		<Box sx={{ minWidth: 120, maxHeight: 100 }}>
-			<FormControl fullWidth sx={{ maxHeight: 100 }}>
-				<InputLabel id='demo-simple-select-label'>Pais</InputLabel>
-				<Select
-					labelId='demo-simple-select-label'
-					id='demo-simple-select'
-					value={country}
-					label='Pais'
-					onChange={handleChange}
-				>
-					{codeCountries !== undefined &&
-						codeCountries.map(item => (
-							<MenuItem key={item} value={item}>
-								{item}
-							</MenuItem>
-						))}
-				</Select>
-			</FormControl>
-		</Box>
+		<FormControl sx={{ m: 1, minWidth: 120 }} size='small'>
+			<InputLabel id='demo-select-small'>Pais</InputLabel>
+			<Select
+				labelId='demo-select-small'
+				id='demo-select-small'
+				value={country}
+				label='Pais'
+				onChange={handleChange}
+			>
+				{codeCountries !== undefined &&
+					codeCountries.map(item => (
+						<MenuItem key={item} value={item}>
+							{item}
+						</MenuItem>
+					))}
+			</Select>
+		</FormControl>
 	);
 }

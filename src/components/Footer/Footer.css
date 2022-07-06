@@ -1,0 +1,11 @@
+.Footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10px 16px 10px;
+	background-color: var(--dark-light);
+	height: 50px;
+	align-items: center;
+}
+.Footer-copy {
+	font-size: 14px;
+}

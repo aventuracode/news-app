@@ -7,7 +7,10 @@
 .card-info a {
 	font-weight: bold;
 	text-decoration: none;
-	color: var(--textColor) ;
+	color: var(--textColor);
+}
+.card-info a:hover {
+	color: var(--primary);
 }
 @media (max-width: 640px) {
 }
