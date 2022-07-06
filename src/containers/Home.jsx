@@ -4,12 +4,12 @@ import WrapTitle from '../components/WrapTitle/WrapTitle';
 import AppContext from '../context/AppContext';
 import ButtonUILg from '../components/UIComponents/ButtonUILg';
 import { URL_TOPHEADLINES } from '../components/helpers/requester';
-// import { data } from '../db';
+import { data } from '../db';
 
 const Home = () => {
 	const { state, addToNews } = useContext(AppContext);
 	const { country, news } = state;
-	// const datafake = JSON.parse(data);
+	const datafake = JSON.parse(data);
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
@@ -39,7 +39,7 @@ const Home = () => {
 	return (
 		<>
 			<WrapTitle section='home' />
-			<ListOfArticle news={news} />
+			<ListOfArticle news={datafake} />
 			<div className='wrapButton'>
 				<ButtonUILg handleClick={handleClick} />
 			</div>

@@ -9,6 +9,8 @@ export const PAGESIZE = '&pageSize=10&';
 export const PAGE = '&page=';
 export const URL_TOPHEADLINES = URL_API + TOPHEADLINES + APIKEY + PAGESIZE;
 export const URL_SEARCH = URL_API + SEARCH + APIKEY + PAGESIZE;
+export const LOCALHOST =
+	'http://{localhost:44332}/api/news/topheadlines?country=ar&page=1';
 
 // https://newsapi.org/v2/top-headlines?country=us&apiKey=cbab2fea4a3f4bb7be51a649924313fc&pageSize=10&page=2
 // https://newsapi.org/v2/everything?q=bitcoin&apiKey=cbab2fea4a3f4bb7be51a649924313fc&pagesize=10&page=1

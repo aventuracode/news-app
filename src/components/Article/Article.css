@@ -36,10 +36,10 @@
 @media (max-width: 640px) {
 	.card-root {
 		flex-direction: column;
+		border-bottom: solid 2px var(--primary);
 	}
 	.card-wrap-image {
 		padding: 56.25% 0 0 0;
-
 		min-width: 350px;
 		margin-bottom: 10px;
 	}

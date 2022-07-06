@@ -16,6 +16,10 @@ form {
 	width: 100%;
 	align-items: end;
 }
+.wrap-searchTerm{
+	display: flex;
+	flex-direction: column;
+}
 
 @media (max-width: 640px) {
 	.searcher-container {

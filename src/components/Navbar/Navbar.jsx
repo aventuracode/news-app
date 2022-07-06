@@ -10,7 +10,7 @@ const Navbar = () => {
 	};
 	return (
 		<div className='navbar'>
-			<h3>Trending News</h3>
+			<h2>Trending News</h2>
 			<nav ref={navRef}>
 				<Link to='/' onClick={showNavbar}>
 					Últimas Noticias

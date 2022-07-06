@@ -4,7 +4,6 @@ import ButtonUI from '../UIComponents/ButtonUI';
 import { URL_SEARCH } from '../helpers/requester';
 import { Formik } from 'formik';
 import moment from 'moment';
-
 import './Searcher.css';
 import DatePicker from '../DatePicker/DatePicker';
 
@@ -57,16 +56,19 @@ const Searcher = () => {
 								name='dateTo'
 								label='Fecha Hasta'
 							/>
-							<label htmlFor='search'>palabras claves</label>
-							<input
-								id='search'
-								type='text'
-								onChange={props.handleChange}
-								onBlur={props.handleBlur}
-								value={props.values.name}
-								name='searchTerm'
-								placeholder='ingresar termino'
-							/>
+							<div className='wrap-searchTerm'>
+								<label htmlFor='search'>palabras claves</label>
+								<input
+									id='search'
+									type='text'
+									onChange={props.handleChange}
+									onBlur={props.handleBlur}
+									value={props.values.name}
+									name='searchTerm'
+									placeholder='ingresar termino'
+								/>
+							</div>
+
 							{props.errors.name && (
 								<div id='feedback'>{props.errors.name}</div>
 							)}
