@@ -7,7 +7,13 @@ const ButtonUI = props => {
 	const { type } = props;
 	return (
 		<Stack direction='row' spacing={2}>
-			<Button variant='contained' type={type} endIcon={<SearchIcon />}>
+			<Button
+				variant='contained'
+				type={type}
+				endIcon={<SearchIcon />}
+				color='success'
+				sx={{}}
+			>
 				Buscar
 			</Button>
 		</Stack>
